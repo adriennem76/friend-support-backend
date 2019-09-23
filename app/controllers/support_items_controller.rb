@@ -35,6 +35,6 @@ class SupportItemsController < ApplicationController
   private
 
   def support_item_params
-    params.require(:support_item).permit(:category,:description, :frequency_num, :frequency_period)
+    params.require(:support_item).permit(:category,:description, :frequency_num, :frequency_period, :user_id)
   end
 end
