@@ -9,6 +9,13 @@ class User < ApplicationRecord
     FriendRequest.select{|request| request.friend_id == id}
   end
 
+  def requested_friends
+    User.select{
+      |user| user.friend_requests.any? {
+        |request| request.friend_id == self.id}
+    }
+  end
+
   def remove_friend(friend)
     self.friends.destroy(friend)
    end
