@@ -13,7 +13,10 @@ before_action :set_friend_request, except: [:index, :create]
   end
   
   def update
+    friend = User.find(@friend_request.user_id)
     @friend_request.accept
+    
+    render json: friend
   end
   
   def destroy
