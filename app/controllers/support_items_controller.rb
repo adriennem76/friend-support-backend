@@ -20,6 +20,7 @@ class SupportItemsController < ApplicationController
   def update
     support_item = SupportItem.find(params[:id])
     support_item.update(support_item_params)
+    render json: support_item
   end
   
   def show
