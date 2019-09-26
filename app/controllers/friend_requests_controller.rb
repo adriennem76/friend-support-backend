@@ -8,8 +8,9 @@ before_action :set_friend_request, except: [:index, :create]
   
   def create
     friend_request = FriendRequest.create(friend_request_params)
+    friend = User.find(friend_request.friend_id)
 
-    render json: friend_request
+    render json: friend
   end
   
   def update
