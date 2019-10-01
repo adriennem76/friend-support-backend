@@ -4,6 +4,7 @@ class User < ApplicationRecord
   has_many :friendships, dependent: :destroy
   has_many :friends, through: :friendships
   has_many :support_items
+  validates :email, uniqueness: true
   
   def requests_received
     FriendRequest.select{|request| request.friend_id == id}
