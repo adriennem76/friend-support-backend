@@ -1,24 +1,29 @@
-# README
+Community Care
+========================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A webiste for friends to connect and offer support to one another.
 
-Things you may want to cover:
+## Install
 
-* Ruby version
+Run `rails db:create` in the project directory.
+Then run `rails db:migrate`.
 
-* System dependencies
+Install the frontend of the project following the instructions in that README: [Community Care Frontend](https://github.com/adriennem76/friend-support-frontend)
 
-* Configuration
+## Running the App
 
-* Database creation
+Run `rails s` to start the server.
 
-* Database initialization
+Then get the frontend running by following the instructions in the link above. 
 
-* How to run the test suite
+## Tech/Framework Used
 
-* Services (job queues, cache servers, search engines, etc.)
+Built with Rails 5 using Postgres.
 
-* Deployment instructions
+## Author
 
-* ...
+Adrienne Miranda
+
+## Acknowledgments
+
+This project was insipred by Abeni Jones' worshop *How To Take Care of Each Other: Community Care in Times of Crisis*. To find out more about the workshop and her other work, visit her website at: https://abenijones.net/ .
