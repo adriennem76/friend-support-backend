@@ -26,4 +26,4 @@ Adrienne Miranda
 
 ## Acknowledgments
 
-This project was insipred by Abeni Jones' worshop *How To Take Care of Each Other: Community Care in Times of Crisis*. To find out more about the workshop and her other work, visit her website at: https://abenijones.net/ .
+This project was insipred by Abeni Jones' workshop *How To Take Care of Each Other: Community Care in Times of Crisis*. To find out more about the workshop and her other work, visit her website at: https://abenijones.net/ .
