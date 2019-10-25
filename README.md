@@ -5,7 +5,8 @@ A webiste for friends to connect and offer support to one another.
 
 ## Install
 
-Run `rails db:create` in the project directory.
+Run `bundle install` in the project directory.
+Then run `rails db:create`.
 Then run `rails db:migrate`.
 
 Install the frontend of the project following the instructions in that README: [Community Care Frontend](https://github.com/adriennem76/friend-support-frontend)
